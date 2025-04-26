@@ -4,4 +4,4 @@
 
 也许有一天就用上了呢  
 
-[Telegram Channel](https://t.me/RhineNya)
+[Telegram Channel](https://t.me/AkinaDailyChannel)
