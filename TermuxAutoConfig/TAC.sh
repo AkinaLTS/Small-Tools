@@ -12,12 +12,12 @@ cd ${TMP}
 
 # 字体替换
 ## 下载Jetbrain Nerdfont
-wget https://github.com/ryanoasis/nerd-fonts/releases/latest/downloadJetBrainsMono.tar.xz
+wget https://github.com/subframe7536/maple-font/releases/latest/MapleMonoNL-NF-CN-unhinted.zip -O maple.zip
 ## 解压
-unzip JBM.zip
+unzip Maple.zip
 ## 替换字体
-mv JetBrainsMonoNerdFontMono-Bold.ttf ${HOME}/.termux/font.ttf
-rm *.ttf
+mv MapleMonoNL-NF-CN-Regular.ttf ${HOME}/.termux/font.ttf
+rm *.ttf*
 
 # 复位
 termux-wake-unlock
