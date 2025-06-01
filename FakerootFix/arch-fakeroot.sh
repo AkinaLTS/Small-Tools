@@ -56,7 +56,7 @@ makepkg
 
 #安装fakeroot-tcp
 echo "安装fakeroot-tcp"
-sudo pacman -U --overwrite "*" fakeroot*.pkg.tar.xz
+sudo pacman -U --overwrite "*" fakeroot*.pkg.tar.xz --noconfirm
 sudo rm -rf ${SOLVERTMP}
 
 #################################
