@@ -60,7 +60,7 @@ sudo rm -rf ${WORKDIR}
 # Install zsh
 git clone ${ZSH_COMFIGURE_REPO}
 ./zsh/zsh.sh --auto
-hash -e
+hash -r
 zshtheme pure
 
 # Add archlinuxcn repo, mirrored by BFSU
