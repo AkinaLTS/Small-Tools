@@ -14,7 +14,7 @@ cd ${TMP}
 ## 下载Jetbrain Nerdfont
 wget https://github.com/subframe7536/maple-font/releases/latest/download/MapleMonoNL-NF-CN-unhinted.zip -O maple.zip
 ## 解压
-unzip Maple.zip
+unzip maple.zip
 ## 替换字体
 mv MapleMonoNL-NF-CN-Regular.ttf ${HOME}/.termux/font.ttf
 rm *.ttf*
