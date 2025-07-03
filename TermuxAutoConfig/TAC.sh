@@ -12,7 +12,7 @@ cd ${TMP}
 
 # 字体替换
 ## 下载Jetbrain Nerdfont
-wget https://github.com/subframe7536/maple-font/releases/latest/MapleMonoNL-NF-CN-unhinted.zip -O maple.zip
+wget https://github.com/subframe7536/maple-font/releases/latest/download/MapleMonoNL-NF-CN-unhinted.zip -O maple.zip
 ## 解压
 unzip Maple.zip
 ## 替换字体
