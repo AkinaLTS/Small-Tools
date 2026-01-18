@@ -20,7 +20,7 @@ echo "nameserver 223.5.5.5
 nameserver 1.1.1.1" >/etc/resolv.conf
 
 # Re-compile fakeroot with tcp ipc
-# So that we can usr AUR mormally.
+# So that we can usr AUR normally.
 
 pacman -Syu
 pacman -Sy ${DEPS} --needed --noconfirm --overwrite "*"
@@ -53,7 +53,6 @@ cd fakeroot-tcp || exit 1
 makepkg
 
 # Install fakeroot-tcp
-echo "安装fakeroot-tcp"
 sudo pacman -U --overwrite "*" fakeroot*.pkg.tar.xz --noconfirm
 sudo rm -rf ${WORKDIR}
 

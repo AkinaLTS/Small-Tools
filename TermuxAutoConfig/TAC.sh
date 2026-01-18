@@ -11,7 +11,7 @@ TMPDIR="$(mktemp -d --suffix=_TAC)"
 cd ${TMP}
 
 # 字体替换
-## 下载Jetbrain Nerdfont
+## 下载 Maple Mono 字体
 wget https://github.com/subframe7536/maple-font/releases/latest/download/MapleMonoNL-NF-CN-unhinted.zip -O maple.zip
 ## 解压
 unzip maple.zip
