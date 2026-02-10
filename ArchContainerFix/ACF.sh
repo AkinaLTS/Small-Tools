@@ -6,6 +6,7 @@
 DEPS="wget tar make filesystem glibc sed util-linux po4a automake autoconf acl po4a git libtool clang"
 WORKDIR="$(mktemp -d --suffix _ACF)"
 ZSH_COMFIGURE_REPO="https://github.com/AkinaLTS/zsh.git"
+DOWNURL="https://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.31.orig.tar.gz"
 
 # Ensure that we are rooted.
 if [[ $(id -u) -ne 0 ]]; then
